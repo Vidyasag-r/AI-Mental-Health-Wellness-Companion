@@ -1,14 +1,8 @@
-
-# AI Mental Wellness Support Assistant
+# 🧠 AI Mental Wellness Support Assistant
 
 🌐 **Live Demo:** https://ai-mental-health-wellness-companion-6mqbssxa6xiibeicnr6nwy.streamlit.app/
 
-
-
-
-# 🧠 AI Mental Wellness Support Assistant
-
-An AI-powered mental wellness application that analyzes a user's feelings, detects their mood, and provides supportive responses using Google's Gemini AI.
+An AI-powered mental wellness application that analyzes a user's feelings, detects mood, and provides supportive responses using Google's Gemini AI.
 
 ## ✨ Features
 
@@ -19,42 +13,122 @@ An AI-powered mental wellness application that analyzes a user's feelings, detec
 - 📜 Mood history tracking
 - 📈 Sentiment trend chart
 - 📊 Mood distribution chart
-- 💜 Modern glassmorphism user interface built with Streamlit
+- 💜 Modern glassmorphism user interface
+- 📝 Supportive AI conversation
+- 🌿 Wellness and self-care suggestions
 
 ## 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- Google Gemini AI
-- TextBlob
-- Pandas
+- 🐍 Python
+- 🎈 Streamlit
+- 🤖 Google Gemini AI
+- 📝 TextBlob
+- 🐼 Pandas
+- 🌐 HTML/CSS
+- 📊 Data visualization
 
-## 🚀 How to Run
 
+## 🚀 Run Locally
 1. Clone the repository
-
-```bash
-git clone https://github.com/vishnupriyabyrukuru/Mental-Wellness-AI.git
-```
-
+git clone https://github.com/yourusername/Mental-Wellness-AI-Recovered.git
+cd Mental-Wellness-AI-Recovered
 2. Install the required packages
-
-```bash
 pip install -r requirements.txt
-```
+3. Configure your Gemini API key
 
-3. Add your Gemini API key in `app.py`.
+For security, do not add your Gemini API key directly to app.py or commit it to GitHub.
+
+For local development, configure the API key using an environment variable or Streamlit secrets.
 
 4. Run the application
-
-```bash
 streamlit run app.py
-```
 
-## 📌 Project Purpose
+The application will open in your browser.
 
-This project was developed to provide emotional support by combining AI-generated responses with sentiment analysis and mood tracking in an easy-to-use interface.
+🔐 API Key Security
 
----
+This project uses Google's Gemini AI.
 
-Made with ❤️ using Streamlit, Gemini AI, and TextBlob.
+Never upload API keys, passwords, or other sensitive credentials to GitHub.
+
+When deploying with Streamlit Community Cloud, store sensitive values using Streamlit Secrets instead of hard-coding them in the source code.
+
+📊 Application Capabilities
+😊 Mood Detection
+
+The application analyzes the user's input and identifies the general mood or emotional tone.
+
+📊 Sentiment Analysis
+
+TextBlob is used to analyze the sentiment of user input and provide sentiment information.
+
+🤖 AI Support
+
+Google Gemini AI generates supportive and personalized responses based on the user's input.
+
+📈 Mood History
+
+The application can track mood-related information and display trends over time.
+
+💡 Wellness Suggestions
+
+Users can receive general wellness and self-care suggestions based on their interaction.
+
+🎯 Project Purpose
+
+The purpose of this project is to explore how artificial intelligence, sentiment analysis, and mood tracking can be combined to create an easy-to-use wellness support application.
+
+The application is designed to provide general emotional support and encourage positive self-care habits.
+
+⚠️ Disclaimer
+
+This application is intended for general wellness and informational purposes only.
+
+It is not a substitute for professional medical, psychological, or mental-health care.
+
+If someone is experiencing a mental-health emergency or is in immediate danger, they should contact appropriate emergency services or a qualified professional.
+
+🌐 Live Application
+
+Try the application here:
+
+https://ai-mental-health-wellness-companion-6mqbssxa6xiibeicnr6nwy.streamlit.app/
+
+🔮 Future Improvements
+🔐 Improved user authentication
+💾 Cloud-based mood history
+📱 Better mobile responsiveness
+🎙️ Voice-based interaction
+🌍 Multi-language support
+📊 More detailed mood analytics
+🤖 Improved AI personalization
+☁️ Cloud database integration
+❤️ Acknowledgements
+
+This project was built using:
+
+Streamlit
+Google Gemini AI
+TextBlob
+Pandas
+Python
+## 📂 Project Structure
+
+```text
+Mental-Wellness-AI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── comfort_library.py
+├── one_moment.py
+│
+├── assets/
+│
+├── book_covers/
+│
+├── screenshots/
+│
+└── history.csv
+
