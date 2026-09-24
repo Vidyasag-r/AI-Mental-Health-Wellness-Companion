@@ -1,9 +1,8 @@
 
 # AI Mental Wellness Support Assistant
 
-🌐 **Live Demo:** https://mental-wellness-ai.streamlit.app/
+🌐 **Live Demo:** https://ai-mental-health-wellness-companion-6mqbssxa6xiibeicnr6nwy.streamlit.app/
 
-💻 **GitHub Repository:** https://github.com/vishnupriyabyrukuru/Mental-Wellness-AI
 
 
 
